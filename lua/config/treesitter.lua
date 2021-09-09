@@ -8,6 +8,10 @@ treesitter.setup({
         "lua",
         "toml",
         "comment",
+        "python",
+        "json",
+        "bash",
+        "vim"
     },
     highlight = {
         enable = true,
