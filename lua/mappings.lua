@@ -31,7 +31,7 @@ local packer = {
 }
 
 local telescope = {
-    prefix = "<leader>t",
+    prefix = "<leader>f",
     { "t", "<cmd>Telescope<cr>" },
     { "f", "<cmd>Telescope fd<cr>" },
     { "b", "<cmd>Telescope buffers<cr>" },
