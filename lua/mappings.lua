@@ -59,9 +59,16 @@ local v_gitsigns = {
     { "r", "<cmd>lua require('gitsigns').reset_hunk({vim.fn.line('.'), vim.fn.line('v'))})<cr>" },
 }
 
+-- NOTE: if this causes any issues, see here: https://stackoverflow.com/a/16360104
+local utils = {
+    { mode = "n", { "<cr>", "o<esc>" } },       -- enter adds new line below
+    { mode = "n", { "<s-cr>", "O<esc>" } },     -- shift enter adds new line above
+}
+
 nest.applyKeymaps({
     explorer,
     -- escapes,
+    utils,
     packer,
     leader,
     telescope,
