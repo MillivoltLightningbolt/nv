@@ -77,6 +77,10 @@ packer.startup(function(use)
         'LionC/nest.nvim',
     }
 
+    use {
+        'windwp/nvim-autopairs'
+    }
+
     -- fuzzy finder
     use {
         'nvim-telescope/telescope.nvim',
