@@ -7,7 +7,7 @@ telescope.setup({
     defaults = {
         prompt_prefix = "τ ",
         entry_prefix = "○ ",
-        initial_mode = "normal",
+        initial_mode = "insert",
         set_env = { ["COLORTERM"] = "truecolor" },
     },
 })
