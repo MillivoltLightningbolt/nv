@@ -6,6 +6,9 @@ end
 -- NOTE: any change within any of the "local" blocks won't take effect
 --       unless called with nest.applyKeymaps() (see end of file)
 
+local explorer = {
+    prefix = "<leader>",
+    { "e", "<cmd>NvimTreeToggle<cr>" }
 }
 
 local leader = {
@@ -56,6 +59,7 @@ local v_gitsigns = {
 }
 
 nest.applyKeymaps({
+    explorer,
     packer,
     leader,
     telescope,
