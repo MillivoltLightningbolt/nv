@@ -6,8 +6,8 @@ local o = vim.o
 -- set config path
 g.configdir = "$XDG_CONFIG_HOME/nvim"
 
--- set leader key to semicolon
-g.mapleader = ";"
+-- set leader key
+g.mapleader = " "
 
 -- enable current line highlighting
 opt.cursorline = true
