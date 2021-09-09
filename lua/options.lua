@@ -52,6 +52,9 @@ o.termguicolors = true
 -- disable shada
 opt.shadafile = "NONE"
 
+-- disable line-wrapping
+opt.wrap = false
+
 -- disable built-in plugins
 local disabled_built_ins = {
     "2html_plugin",
