@@ -36,7 +36,7 @@ local telescope = {
     { "f", "<cmd>Telescope fd<cr>" },
     { "b", "<cmd>Telescope buffers<cr>" },
     { "g", "<cmd>Telescope live_grep<cr>" },
-    { "h", "<cmd>Telescope command_history<cr>" },
+    { "h", "<cmd>Telescope help_tags<cr>" },
 }
 
 local n_gitsigns = {
