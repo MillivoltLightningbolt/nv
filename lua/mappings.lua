@@ -3,9 +3,6 @@ if not nest then
     return
 end
 
-local escapes = {
-    { mode = "i", { "jk", "" } },
-    { mode = "t", { "jk", "" } },
 }
 
 local leader = {
@@ -56,7 +53,6 @@ local v_gitsigns = {
 }
 
 nest.applyKeymaps({
-    escapes,
     packer,
     leader,
     telescope,
