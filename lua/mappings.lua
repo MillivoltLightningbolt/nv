@@ -3,6 +3,9 @@ if not nest then
     return
 end
 
+-- NOTE: any change within any of the "local" blocks won't take effect
+--       unless called with nest.applyKeymaps() (see end of file)
+
 }
 
 local leader = {
