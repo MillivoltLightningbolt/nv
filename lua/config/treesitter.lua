@@ -14,7 +14,7 @@ treesitter.setup({
         "vim"
     },
     highlight = {
-        enable = true,
+        enable = true,  -- set to false to deactivate plugin (not recommended)
         additional_vim_regex_highlighting = false,
     },
 })

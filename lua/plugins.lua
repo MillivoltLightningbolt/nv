@@ -78,7 +78,8 @@ packer.startup(function(use)
     }
 
     use {
-        'windwp/nvim-autopairs'
+        'windwp/nvim-autopairs',
+        config = function() require('config.autopairs') end,
     }
 
     -- fuzzy finder
