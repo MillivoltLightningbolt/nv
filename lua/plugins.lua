@@ -57,7 +57,13 @@ packer.startup(function(use)
     use {
         'tpope/vim-surround',
         event = 'BufEnter',
-    }	
+    }
+
+    -- quickly comment/uncomment
+    use {
+        'tpope/vim-commentary',
+        event = 'BufEnter',
+    }
 
     -- UTILS
 
