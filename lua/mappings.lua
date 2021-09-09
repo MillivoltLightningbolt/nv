@@ -60,6 +60,7 @@ local v_gitsigns = {
 
 nest.applyKeymaps({
     explorer,
+    -- escapes,
     packer,
     leader,
     telescope,
