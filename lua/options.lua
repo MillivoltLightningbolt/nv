@@ -55,6 +55,9 @@ opt.shadafile = "NONE"
 -- disable line-wrapping
 opt.wrap = false
 
+-- use system clipboard
+o.clipboard = "unnamedplus"
+
 -- enable mouse
 o.mouse = "a"
 
