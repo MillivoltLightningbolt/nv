@@ -56,7 +56,7 @@ if not lua then
 end
 
 -- set up lua lsp
-local lua_lsp_main = "C:\\Users\\shift\\.code\\lua\\lua-language-server\\main.lua" -- path to main.lua inside cloned sumneko_lua repository
+local lua_lsp_main = "/home/milton/.config/language-servers/lua-language-server/main.lua" --"C:\\Users\\shift\\.code\\lua\\lua-language-server\\main.lua" -- path to main.lua inside cloned sumneko_lua repository
 local luadev = lua.setup({
     lspconfig = {
         cmd = { "lua-language-server", "-E", lua_lsp_main},
